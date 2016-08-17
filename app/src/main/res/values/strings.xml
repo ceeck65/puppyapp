@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Puppys App</string>
+    <string name="btnEnter">Entrar</string>
+    <string name="txtWelcome">Bienvenido</string>
+    <string name="titleBar">Puppy App</string>
+    <string name="titleBarFavorites">Favoritos</string>
+    <string name="titleBarAbout">Acerca de</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="menu_about">Acerca de...</string>
+    <string name="menu_contact">Contacto</string>
+    
+    
+    <string name="hintName">Nombre</string>
+    <string name="hintEmail">Correo</string>
+    <string name="hintMessage">Mensaje</string>
+
+    <string name="titleForm">Nuevo Contacto</string>
+    <string name="btnRegisterContact">Registrar</string>
+
+    <string name="sendingMessage">Enviando mensaje</string>
+    <string name="pleaseWait">Espere por favor...</string>
+    <string name="sendMessage">Mensaje enviado.</string>
+
+
+
+    <string name="txtAuthor">Mario Alejandro Fernández Liendo</string>
+    <string name="txtBio">  Venezolano, 30 años de edad, Técnico superior universitario en Informática.
+        Desarrollador web y aprendiz de app móviles con Android nativo, he desarrollado aplicaciones híbridas con IONIC Angular, actualmente
+        trabajo en una empresa de desarrollo para app moviles.
+    </string>
+
+    <string name="txtContacts">Contacto:</string>
+    <string name="txtContactEmail">  alespcs@gmail.com</string>
+    <string name="txtContactGithub"> https://github.com/ceeck65</string>
+
+
+</resources>

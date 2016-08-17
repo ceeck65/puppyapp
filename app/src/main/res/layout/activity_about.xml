@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about.AboutActivity"
+    >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="15dp"
+        >
+        <RelativeLayout
+            android:layout_width="384dp"
+            android:layout_height="567dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            >
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/imgPetsCircle"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/photo_about"
+                app:civ_border="true"
+                app:civ_border_color="#fef9f9f8"
+                app:civ_border_width="1dp"
+                app:civ_shadow="true"
+                app:civ_shadow_color="@color/colorAccent"
+                app:civ_shadow_radius="5"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="17dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteY="174dp"
+                tools:layout_editor_absoluteX="163dp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:id="@+id/textViewTitle"
+                android:textSize="16sp"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                tools:textColor="@android:color/holo_blue_dark"
+                android:layout_below="@+id/imgPetsCircle"
+                android:layout_centerHorizontal="true"
+                android:text="@string/txtAuthor" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteY="222dp"
+                tools:layout_editor_absoluteX="33dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_gravity="center_vertical|right"
+                android:id="@+id/tvBio"
+                android:layout_marginTop="22dp"
+                tools:textSize="15sp"
+                android:layout_below="@+id/textViewTitle"
+                android:layout_centerHorizontal="true"
+                android:text="@string/txtBio" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteY="222dp"
+                tools:layout_editor_absoluteX="33dp"
+                android:layout_gravity="center_vertical|right"
+                android:id="@+id/tvContactsEmail"
+                tools:textSize="15sp"
+                android:text="@string/txtContactEmail"
+                android:layout_below="@+id/tvContacts"
+                android:layout_alignLeft="@+id/tvContacts"
+                android:layout_alignStart="@+id/tvContacts"
+                android:layout_marginTop="14dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteY="222dp"
+                tools:layout_editor_absoluteX="33dp"
+                android:layout_gravity="center_vertical|right"
+                android:id="@+id/tvContactsWeb"
+                android:layout_marginTop="12dp"
+                tools:textSize="15sp"
+                android:text="@string/txtContactGithub"
+                android:layout_below="@+id/tvContactsEmail"
+                android:layout_alignLeft="@+id/tvContactsEmail"
+                android:layout_alignStart="@+id/tvContactsEmail" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteY="222dp"
+                tools:layout_editor_absoluteX="33dp"
+                android:layout_gravity="center_vertical|right"
+                android:textStyle="normal|bold"
+                android:id="@+id/tvContacts"
+                android:layout_marginTop="25dp"
+                tools:textSize="18sp"
+                android:text="@string/txtContacts"
+                android:layout_below="@+id/tvBio"
+                android:layout_alignLeft="@+id/tvBio"
+                android:layout_alignStart="@+id/tvBio" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
